@@ -1,7 +1,7 @@
 import WebSocket from 'ws';
 
 //#1 fetch the token
-fetch('https://sy.idp.liveperson.net/api/account/39390959/signup', {
+fetch('https://jwt.api.url', {
 	method: 'POST',
 	headers: { 'Content-Type': 'application/json' }
 })
@@ -23,7 +23,7 @@ const socketToMe = (token) => {
 	};
 
 	// define websocket connection
-	const ws = new WebSocket('wss://sy.msg.liveperson.net/ws_api/account/39390959/messaging/consumer?v=3', options);
+	const ws = new WebSocket('wss://secure-seb-socket.url', options);
 
 	ws.on('error', console.error);
 	
