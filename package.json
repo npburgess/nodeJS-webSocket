@@ -1,0 +1,15 @@
+{
+	"name": "lp",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "LP messaging service exercise",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "it's a me, Nathaniel.",
+	"license": "ISC",
+	"dependencies": {
+		"ws": "^8.14.2"
+	}
+}
